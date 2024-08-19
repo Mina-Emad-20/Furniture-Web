@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    --logo_color: #e99c2e;
+    --font_color: #616060;
+    --li_color: #616068;
+    --icons_color: #958985;
+    --star_color: #efce4a;
+    --bg_color: #f8f9fd;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/**************************** nav bar ***************************************/
+.navbar ul li {
+    color: var(--font_color);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.showx {
+    color: var(--logo_color)
+}
+
+.navbar span,
+.nav-link:hover {
+    color: var(--logo_color);
+}
+
+.navbar .icons {
+    color: var(--icons_color);
+}
+
+.counterr {
+    font-size: .6rem;
+    line-height: 10px;
+}
+
+/***************************** first section **********************************/
+.carousel-inner {
+    background-color: var(--bg_color);
+}
+
+.carousel-indicators [data-bs-target] {
+    height: 15px;
+    width: 15px;
+}
+
+.custom_indecator {
+    border-color: var(--logo_color) !important;
+}
+
+.carousel-item .diss {
+    padding-top: 8%;
+}
+
+.carousel-item .diss h5 {
+    color: var(--icons_color);
+
+}
+
+.carousel-item .diss h2 {
+    color: var(--font_color);
+}
+
+.carousel-item .diss p {
+    padding-top: 20px;
+    color: var(--icons_color);
+}
+
+.carousel-item .diss span {
+    padding-top: 4px;
+    margin-right: 3px;
+}
+
+.old_price {
+    color: var(--font_color);
+}
+
+.product_button {
+    padding-top: 75px;
+}
+
+.product_button button {
+    background-color: var(--logo_color);
+    color: white;
+    border: 1px;
+    height: 45px;
+    width: 120px;
+}
+
+.product_button a {
+    list-style: none;
+    text-decoration: none;
+    color: var(--icons_color);
+    padding-left: 35px;
+    font-weight: bold;
+}
+
+/******************************** second section **************************************/
+.populer {
+    background-color: var(--bg_color);
+}
+
+.main_add {
+    color: var(--font_color);
+}
+
+.main_dis {
+    color: var(--icons_color);
+}
+
+.pprice {
+    color: var(--logo_color);
+}
+
+.disbut {
+    background-color: var(--bg_color);
+    border-width: 1px;
+}
+
+button {
+    border-color: var(--font_color);
+}
+
+
+
+/******************************* third section *********************************/
+.main_address {
+    color: var(--font_color);
+}
+
+.product_image {
+    height: 280px;
+    width: 260px;
+    line-height: 200px;
+    background-color: var(--bg_color);
+}
+
+.sale::after {
+    content: "sale";
+    position: absolute;
+    top: 20px;
+    right: 0;
+    height: 23px;
+    width: 54px;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+    background-color: greenyellow;
+}
+
+.brown::after {
+    background-color: brown;
+}
+
+.name {
+    color: var(--font_color);
+}
+
+.collection_price {
+    color: var(--icons_color);
+}
+
+/****************************** intro ***********************************/
+.intro {
+    background-image: url(../images/collection/sofa-collection-banner.jpg);
+    background-position: center;
+    min-height: 400px;
+    position: relative;
+}
+
+.intro .dark {
+    background-color: #000000c4;
+    height: 100%;
+    width: 35%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.intro .description {
+    top: 13%;
+    left: 7%;
+    width: 50%;
+    position: absolute;
+    color: white;
+}
+
+.intro .description .intro_address,
+.intro .description .intro_price {
+    color: var(--logo_color);
+}
+
+.intro .description .intro_botton {
+    background-color: var(--logo_color);
+    height: 58px;
+    width: 165px;
+    border: 1px;
+    border-radius: 2%;
+    color: white;
+}
+
+/******************* fourth section ***********************/
+.review {
+    font-size: 0.9rem;
+}
+
+/****************** fifth section ************************/
+.dess {
+    color: darkgray;
+}
+
+.dess h6 {
+    color: var(--li_color);
+}
+
+span .creator {
+    color: var(--icons_color);
+}
+
+.row .blabla {
+    color: var(--icons_color);
+    font-size: 0.9rem;
+}
+
+/********************** brands **************************/
+.brands {
+    height: 2%;
+    background-color: var(--bg_color);
+}
+
+/********************* last section ************************/
+.links_add {
+    color: var(--font_color);
+}
+
+.links ul {
+    list-style: none;
+}
+
+.links ul a {
+    text-decoration: none;
+    color: var(--icons_color);
+    padding-right: 30px;
+}
+
+.links ul a:hover {
+    color: var(--logo_color);
+}
+
+.subscribe {
+    color: var(--icons_color);
+}
+
+.data input {
+    height: 44px;
+    width: 238px;
+}
+
+.data button {
+    background-color: white;
+    width: 50px;
+    border: transparent;
+}
+
+/************************* footer ******************************/
+.footer {
+    background-color: var(--bg_color);
+}
+
+.top {
+    color: var(--icons_color);
+}
+
+.buttom {
+    color: var(--icons_color);
+
+}
